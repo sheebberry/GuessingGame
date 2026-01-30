@@ -9,7 +9,7 @@
      <p>Random Number: <span id="demo"></span></p>
     
     <script>
-        // Initialize random number between 1 and 10 (inclusive)
+        // Random Number Generator
         randomNumber = Math.floor(Math.random() * 10) + 1;
         document.getElementById("demo").innerHTML = randomNumber;
         console.log(randomNumber);
@@ -21,7 +21,7 @@
         // Ask player for their guess
         let guess = parseInt(prompt("Guess a number between 1 and 10:"));
   
-        // Increment guess count
+        // Keeping Track of Guess Count
         guessCount++;
         
         // Check the guess
